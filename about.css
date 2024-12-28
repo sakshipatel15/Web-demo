@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar-track{
+    background: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:burlywood;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.separator .line {
+    flex: 1;
+    height: 5px;
+    background-color:rgb(34, 62, 104);
+}
+
+.separator span {
+    font-size: 1rem;
+    color:#0B6623;
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+ .contant1{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.contant2{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.contant3{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.contant4{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.contant5{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.contant6{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+ .card {
+   margin-top: 2.5rem; 
+   border: 2px solid #0B6623;
+   
+}
+.card img{
+    height: 15rem
+ }
+ .card .card-body{
+    background-color: burlywood;
+    color: black;
+ }

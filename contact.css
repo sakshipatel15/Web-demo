@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-contant{
+
+    height: 100vh;
+    /* background-color:burlywood; */
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.main-contant .contactcontant{
+    height: 80%;
+    width: 48%;
+    place-items: center;
+    font-size: 16px;
+    font-weight:normal;
+    margin-top: -40px;
+   
+    p{
+        padding:0 38px 0 38px;
+    }
+}
+.main-contant .text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    h3{
+        color: #0B6623;
+    }
+
+}
+.contactcontant .mb-3 input{
+    background: transparent;
+    /* border: none; */
+    text-decoration: underline;
+    border:0.5px solid gray;
+
+}
+.contactcontant .mb-3{
+    height:18vh;
+    width: 35vw;
+    border: 2px solid #0B6623;
+    border-radius: 10px;
+    padding: 5px;
+    /* background-color:#5daf73; */
+
+}
+.main-contant .contactcontant button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0B6623 ;
+    color: #fff;
+    border: 1px solid burlywood;
+}
+.main-contant .contactcontant button:hover{
+    color: black;
+        background-color: burlywood;
+        border: 1px solid black;
+}
+
+
+.col{
+   
+    overflow: hidden;
+}
+.col .card-body{
+    background-color: #0B6623;
+    height: 40vh;
+    color: white;
+}
+@media(max-width:380px) {
+    .col{
+        /* gap: 100px; */
+        display: none;
+    }
+}
